@@ -1,4 +1,4 @@
-* {
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -15,7 +15,7 @@
   }
   
   /* navbar */
-  .navbar {
+  /* .navbar {
     background-color: aliceblue;
     padding: 10px 20px;
     display: flex;
@@ -24,29 +24,29 @@
     gap: 40px;
     min-height: 70px;
   }
-  
+   */
   
   /* logo  */
-  .logo {
+  /* .logo {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
   }
-  
+   */
   
   /* ul  */
-  .navMenu {
+  /* .navMenu {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 60px;
-  }
+  } */
   
   /* media queries */
   
-  @media screen and (max-width: 780px){
+  /* @media screen and (max-width: 780px){ */
     
     /* hamburger */
-    .hamburger {
+    /* .hamburger {
       display: block;
       cursor: pointer;
     }
@@ -60,9 +60,9 @@
           -webkit-transition: 0.3s ease-in-out;
           transition: 0.3s ease-in-out;
       }
-  
+   */
     /* adding active class to the bars  */
-    .hamburger.active .bar:nth-child(2){
+    /* .hamburger.active .bar:nth-child(2){
       opacity: 0;
     }
     .hamburger.active .bar:nth-child(1){
@@ -72,11 +72,21 @@
       transform: translateY(-8px) rotate(-45deg);
     }
   
-  
+   */
     /* navMenu */
-  
-    .navMenu{
-      position: absolute;
+    /* .navBar ul li {
+      display: block;
+      margin: 16px 0;
+    }
+    .navBar{
+      display: flex;
+      justify-content:center;
+      flex-direction: row;
+      background-color: rgb(56, 46, 46);
+      border-radius: 5px;
+      padding: 0.5%;
+      margin: 3%; */
+      /* position: absolute;
       flex-direction: column;
       gap: 0;
       top: 70px;
@@ -85,8 +95,8 @@
       width: 100%;
       transition: 0.7s ease-in-out;
       background-color: aliceblue;
-      padding: 10px;
-    }
+      padding: 10px; */
+    /* }
   
     .navMenu.active{
       left: 0;
@@ -94,5 +104,4 @@
   
     .navMenu li {
       margin: 16px 0;
-    }
-  }
+    } */
