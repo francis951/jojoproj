@@ -38,7 +38,7 @@
 }
 
 .read-the-docs {
-  color: #857a7a;
+  color: #f8f6f6;
 }
 
 /* NavBar */
@@ -46,7 +46,7 @@
   display: inline-flex;
   justify-content:center;
   flex-direction: column;
-  background-color: rgb(56, 46, 46);
+  background-color: rgb(20, 6, 6);
   border-radius: 5px;
   padding: 10px 90px 10px 90px;
   top: 0.10rem;
@@ -56,9 +56,9 @@
   position: sticky;
   flex-direction: column;
   gap: 0;
-  background-image: url('https://www.transparenttextures.com/patterns/brushed-alum.png');
+  /* background-image: url('https://www.transparenttextures.com/patterns/brushed-alum.png');
   background-size: 100%;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 .navBar ul li{
   display: inline;
@@ -66,4 +66,27 @@
   color: white;
   font-size: 1.5em;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .navBar{
+    width: 75%;
+    text-align: center;
+    padding: 6px 10px 6px 10px;
+    margin: 0.1% 0 2% 0;
+    position: sticky;
+  }
+
+  .navBar ul li{
+    display: inline;
+    width: 75%;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 8px 0 8px;
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+  
 }
